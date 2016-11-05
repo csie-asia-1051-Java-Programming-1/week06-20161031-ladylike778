@@ -5,7 +5,7 @@
  @@@
  @@@
  * Date: 2016/10/31
- * Author: 1050210XX 周永振老師
+ * Author: 105021037 林建宏
  */
 import java.util.*;
 public class ex01 {
@@ -17,12 +17,12 @@ public class ex01 {
 		String c=scn.next();
 		square(n,c);
 	}
-		public static int square(int n,String c){
+		public static void square(int n,String c){
 			for(int i=1;i<=n;i++){
 				for(int j=1;j<=n;j++){
 					System.out.print(c+" ");
 				}System.out.println();
-			}return n;
+			}
 
 			
 		}
